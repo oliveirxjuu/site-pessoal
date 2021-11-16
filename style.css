@@ -1,0 +1,268 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.frase {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px #000000 solid;
+    border-radius: 10px;
+}
+
+.produtos li h2 {
+    color: #000000;
+}
+
+.produtos li:hover {
+    border-color: purple;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos a{
+    text-decoration: none;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    padding: 30px 20px;
+    color: purple;
+}
+
+.img-links {
+    width: 250px;
+    height: 250px;
+    padding-top: 4px;
+    border-radius: 9px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.sobre-mim {
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 17px;
+    text-align: center;
+    
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.edit-img {
+    width: 1064px;
+    height: 302px;
+    float: center;
+    margin-left: -40px;
+}
+
+.intro-sobre-mim {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.profissao {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profissao img {
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.profissao h2 {
+    color: grey;
+    float: right;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 7px ;
+}
+
+.profissao p {
+    font-size: 20px;
+    width: 480px;
+    margin-top: 35px;
+    margin-left: -310px;
+    padding-top: 6px;
+}
+
+.formula-1 img {
+    width: 463px;
+    height: 300px;
+    padding: 15px;
+    padding-left: 18px;
+    border-radius: 25px;
+}
+
+.formula-1 {
+    display: flex;
+}
+
+.formula-1 h2 {
+    color: grey;
+    float: right;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 5px ;
+}
+
+.formula-1 p {
+    font-size: 20px;
+    width: 480px;
+    margin-top: 35px;
+    margin-left: -140px;
+    padding-top: 6px;
+}
+
+.futebol {
+    display: flex;
+}
+
+.futebol img {
+    width: 487px;
+    height: 300px;
+    padding: 15px;
+    padding-left: 18px;
+    border-radius: 25px;
+}
+
+.futebol h2 {
+    color: grey;
+    float: right;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 3px ;
+}
+
+.futebol p {
+    font-size: 20px;
+    width: 480px;
+    margin-top: 35px;
+    margin-left: -115px;
+    padding-top: 6px;   
+}
+
+.zayn {
+    display: flex;
+}
+
+.zayn img {
+    width: 450px;
+    height: 300px;
+    padding: 15px;
+    padding-left: 18px;
+    border-radius: 25px;
+}
+
+.zayn h2 {
+    color: grey;
+    float: right;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 3px ;
+}
+
+.zayn p {
+    font-size: 20px;
+    width: 480px;
+    margin-top: 35px;
+    margin-left: -230px;
+    padding-top: 6px;
+}
+
+#tudo {
+    padding-top: 10px;
+}
+
+
+
